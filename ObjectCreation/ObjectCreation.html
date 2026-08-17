@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Creation</title>
+        <script src="ObjectCreation.js"></script>
+    </head>
+    <body>
+        <h2>Object Creation</h2>
+        <label for="txtFlowerType">Flower Type</label>
+        <input id="txtFlowerType" type="text" placeholder="eg: Rose, SunFlower, Lily, etc."><br><br>
+
+        <label for="txtFlowerColor">Flower Color</label>
+        <input id="txtFlowerColor" type="text" placeholder="eg: Red, Pink, Yellow, White, etc."><br><br>
+
+        <label for="txtPersonalizeIt">Personalize It</label>
+        <input id="txtPersonalizeIt" type="text" placeholder="eg: How many flowers, bouquet or vase, etc."><br><br>
+
+        <label for="txtPriceRange">Price Range:</label><br>
+        <label for="txtMin">Min</label>
+        <input id="txtMin" type="text" placeholder="₹0"><br>
+        <label for="txtMax">Max</label>
+        <input id="txtMax" type="text" placeholder="₹5300+"><br><br>
+
+        <label for="txtReceiversLocation">Receiver's Location</label>
+        <input id="txtReceiversLocation" type="text" placeholder="Enter Receiver's pincode, Location, Area."><br><br>
+        <button onclick="onClickToOrder()">Order</button>
+
+        <label for="txtComments">Comments</label>
+        <input id="txtComments" type="text" placeholder="Additional Comments">
+        <button onclick="onClickToUpdate()">Update</button>
+        <div id="divResult"></div>
+    </body>
+</html>
